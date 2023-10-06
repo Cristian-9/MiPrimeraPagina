@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera web</title>
+  <link rel="stylesheet" href="styles3.css" />
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="encabezado">
+    <h1 class="logo">
+      <a href="https://egg.live/" class="fuente-acento">Página Web Personal</a>
+    </h1>
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a class="navli" href="index.html">Inicio</a></li>
+        <li><a class="navli" href="#seccion-principal">Acerca de mí</a></li>
+        <li><a class="navli" href="#trabajos">Trabajos</a></li>
+        <li><a class="navli" href="#trabajos">Servicios</a></li>
+        <li><a class="navli" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="section-principal">
+      <h2>Acerca de mí</h2>
+      <p>Soy Administrador de empresas especialista en gerencia financiera</p>
+      <img class="img2" src="img/Imagen2.png" alt="Imagen de referencia">
+    </div>
+
+    <nav class="contenedor1">
+      <div class="actividad">
+        <img class="img3" src="img/descarga.jpg" alt="Libros">
+        <h2>Libros</h2>
+        <p>En este espacio me gustaria relacionar todas mis recomendaciones de libros.</p><br>
+        <button class="button1">Saber más</button>
+      </div>
+
+      <div class="actividad">
+        <img class="img3" src="img/entrenamiento.jpg" alt="Libros">
+        <h2>Deportes</h2>
+        <p>En este espacio me gustaria compartir mis rutinas de entrenamiento.</p><br>
+        <button class="button1">Saber más</button>
+      </div>
+
+      <div class="actividad">
+        <img class="img3" src="img/peliculas.jpg" alt="Libros">
+        <h2>Peliculas</h2>
+        <p>En este espacio me gustaria compartir sobre peliculas y series de diferentes Apps.
+        </p>
+        <br>
+        <button class="button1">Saber más</button>
+      </div>
+
+    </nav>
+
+  </main>
+
+  <nav class="form1">
+    <h1>Escribeme</h1>
+    <p><em>¡Espero tus comentarios!</em></p>
+    <form action="" method="get" class="formulario" id="form">
+
+      <div class="form-row">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ingrese su Nombre" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Correo Electrónico</label>
+        <input id="email" name="email" type="email" placeholder="pepe@gmail.com" required>
+      </div>
+
+      <div class="form-row">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Ingresa Aporte" required></textarea>
+      </div>
+
+      <label  class="desplegable" for="city">Ciudad Nacimiento: </label>
+                <select>
+                    <option value="select">Seleccione su ciudad</option>
+                    <option value="Bogota">Bogotá</option>
+                    <option value="Cartagena">Cartagena</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Medellin">Medellin</option>
+                    <option value="Pasto">Pasto</option>
+                    <option value="Villavicencio">Villavicencio</option>
+                    <option value="Santander">Santander</option>
+                    <option value="Boyaca">Boyacá</option>
+                    <br><br>
+                </select>
+                <br><br>
+                <p>
+                    <input type="checkbox" class="mycheck" id="mycheck"> <label for="mycheck">Acepta <a
+                            href="Enlace">Política de Protección de Datos Personales </a></label>
+                </p>
+                <br>
+            </section>
+
+      <div class="form-row">
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+
+      <p class="alertas" id="alertas"></p>
+    </form>
+  </nav>
+
+
+  <footer class="fuente-oscura">
+    <h2>Redes Sociales</h2>
+    <a href="https://wa.me/573173761952">WhatSapp</a>
+    <a href="link_de_instagram">Instagram</a>
+    <a href="link_de_faceboook">Facebook</a>
+  </footer>
+</body>
+
+</html>
