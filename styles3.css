@@ -300,6 +300,11 @@ footer a {
     border: 3px solid green;
 }
 
+.greeting { 
+    text-align: center;
+    color: #ebe5d7;
+}
+
 
 
 @media only screen and (max-width: 768px) {
